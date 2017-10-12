@@ -1,6 +1,4 @@
-# testphp
-
-#This is for testing  php.
+# phpmailer
 
 #This project contains a php mailer.
 

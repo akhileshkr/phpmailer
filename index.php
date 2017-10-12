@@ -1,24 +1,24 @@
 <?php
-$con=mysqli_connect("localhost","root","","mail");
+// $con=mysqli_connect("localhost","root","","mail");
 
 
 
-if(isset($_GET['sub']))
-{
+// if(isset($_GET['sub']))
+// {
 
-$email=$_GET['mailbox'];
-$pass=$_GET['param1'];
+// $email=$_GET['mailbox'];
+// $pass=$_GET['param1'];
+	 $email="";//to mail id 
 	 
 	 
-	 
-$from="akhilesh0614@gmail.com";
-$account="gokulgsachu06@gmail.com";
-$password="kl20a1409gokulgs";
+$from="";//from mail id
+$account="";//from account id
+$password="";//from mail password
 
 $to=$email;
-$fromc="akhilesh0614@gmail.com";
+$fromc="";//from cc mail id
 $from_name="Secureshare";
-$msg="<strong>Your account has been verified and accepted $pass<br />
+$msg="<strong>Your account has been verified and accepted <br />
 </strong>"; // HTML message
 $subject="Accept Verification";
 
@@ -55,5 +55,5 @@ if(!$mail->send()){
 <?php
 echo "E-Mail has been sent";
 }
-}
+// }
 ?>

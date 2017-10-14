@@ -2,6 +2,8 @@
 
 #This project contains a php mailer.
 
-#Please give your email address and other credential to the specified area.
+#mainly the sender email address must be a gmail address.
 
-#edit index.php file 
+#you can change the mail host in the mail.php page 27 th line.
+
+#It include a login page for login to your gmail.
